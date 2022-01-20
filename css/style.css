@@ -110,7 +110,7 @@ a:focus {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 1199px) {
@@ -1979,7 +1979,7 @@ a:focus {
 }
 
 .static-hero {
-  background: url("../images/slider/slide-1.jpg") center center/cover no-repeat local;
+  background: url("../images/slider/UvodniFotka.jpg") center center/cover no-repeat local;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -2007,7 +2007,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/SpodniFotka.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
