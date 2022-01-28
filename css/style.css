@@ -2194,6 +2194,17 @@ a:focus {
   top: 0;
 }
 
+
+div.center-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+p.Max-Sirka{
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 #0.6	wedding-couple-section
 --------------------------------------------------------------*/
