@@ -2198,7 +2198,7 @@ a:focus {
 div.center-div{
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 p.Max-Sirka{
@@ -2215,6 +2215,16 @@ p.Max-Sirka{
 .wedding-couple-section .gb > div {
   width: 50%;
   float: left;
+}
+
+img.Image {
+   max-width: 100%;
+  }
+  
+.max-width{
+  width: 75%;
+  float: none;
+
 }
 
 @media (max-width: 991px) {
