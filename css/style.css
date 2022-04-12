@@ -1037,8 +1037,34 @@ a:focus {
   position: relative;
 }
 
+.page-pagination .pagination_temp li a {
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  font-size: 16px;
+  font-size: 0.88889rem;
+  font-weight: 600;
+  text-align: center;
+  color: #565656;
+  border-radius: 0;
+  border: 1px solid #e1af84;
+  padding: 0;
+  margin: 2px;
+  position: relative;
+}
+
 @media (max-width: 991px) {
   .page-pagination .pagination li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    font-size: 0.83333rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-pagination .pagination_temp li a {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -1058,6 +1084,17 @@ a:focus {
   transform: translate(-50%, -50%);
 }
 
+.page-pagination .pagination_temp li a span {
+  font-size: 14px;
+  font-size: 0.77778rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 991px) {
   .page-pagination .pagination li a span {
     font-size: 13px;
@@ -1065,9 +1102,28 @@ a:focus {
   }
 }
 
+@media (max-width: 991px) {
+  .page-pagination .pagination_temp li a span {
+    font-size: 13px;
+    font-size: 0.72222rem;
+  }
+}
+
+
 .page-pagination .pagination li a:hover,
 .page-pagination .pagination li a:focus,
 .page-pagination .pagination li.current a {
+  background-color: #e1af84;
+  color: #fff;
+}
+
+.page-pagination .pagination_temp li a:hover,
+.page-pagination .pagination_temp li a:focus {
+  background-color: #e1af84;
+  color: #fff;
+}
+
+.page-pagination .pagination_temp li.current a {
   background-color: #e1af84;
   color: #fff;
 }
@@ -3589,6 +3645,8 @@ img.Image {
 .rsvp-section .form .submit-btn {
   text-align: center;
 }
+
+
 
 .rsvp-section .form .submit-btn button {
   background-color: #e1af84;
