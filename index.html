@@ -42,6 +42,27 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        .superbutton {
+            display: inline-block;
+            padding: 10px 40px 5px;
+            background-color: #faf2ea;
+            color: #731f1f;
+            font-size: 35px;
+            border-radius: 20px;
+            transform: scale(1);
+            transition-property: transform;
+            transition-duration: 0.2s;
+            font-family: "Great Vibes", cursive;
+        }
+        .superbutton:hover {
+            display: inline-block;
+            transform: scale(1.1);
+            transition-property: transform;
+            transition-duration: 0.2s;
+        }
+    </style>
+
 </head>
 
 <body id="home">
@@ -170,7 +191,13 @@
                         <h2><span>Dostal jsem pozvánku</span>Co teď ?</h2>
                     </div>
                     <div class="col col-md-7 col-md-offset-1">
-                        <a href="Info.html#pozvanky"> <input type="button" class="button" value="Vše najdete zde"></a>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="Info.html#pozvanky"> 
+                                <div class="superbutton">
+                                    Vše najdete zde
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
